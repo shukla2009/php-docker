@@ -1,4 +1,4 @@
-FROM php:7.1.9-apache
+FROM php:7.2-apache
 
 RUN apt-get update
 RUN apt-get -y install pkg-config libssl-dev
